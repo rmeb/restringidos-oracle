@@ -3,6 +3,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const package = require('./package.json')
 const logger = require('./utils/Logger')
+const {getAddress} = require('./lib/Eth')
 
 const {actualizar} = require('./api/RegistroRestringidos')
 const app = express()
@@ -10,7 +11,8 @@ app.use(bodyParser.json())
 app.use(cors())
 app.get('/', (req, res) => res.send({
     "name": package.name,
-    "version": package.version
+    "version": package.version,
+    "address": getAddress()
 }))
 
 app.post('/actualizar', actualizar)

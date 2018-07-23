@@ -36,7 +36,7 @@ yarn Install
 
 ## Environment
 ```
-export SEED="<seed words>"
+export SECRET_KEY="<secret private key>"
 ```
 
 ## Start Server (port 4000)

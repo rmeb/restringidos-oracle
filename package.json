@@ -7,9 +7,16 @@
   "author": "Andres Junge <andres.junge@consensys.net>",
   "license": "MIT",
   "dependencies": {
+    "bn.js": "^4.11.8",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "ethjs-account": "^0.1.4",
+    "ethjs-contract": "^0.2.3",
+    "ethjs-provider-signer": "^0.1.4",
+    "ethjs-query": "^0.3.8",
+    "ethjs-signer": "^0.1.1",
     "express": "^4.16.3",
+    "rmeb-contracts": "^0.3.1",
     "winston": "^3.0.0"
   },
   "scripts": {
