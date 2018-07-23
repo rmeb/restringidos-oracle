@@ -15,6 +15,7 @@
     "ethjs-provider-signer": "^0.1.4",
     "ethjs-query": "^0.3.8",
     "ethjs-signer": "^0.1.1",
+    "ethjs-util": "^0.1.6",
     "express": "^4.16.3",
     "rmeb-contracts": "^0.3.1",
     "winston": "^3.0.0"
