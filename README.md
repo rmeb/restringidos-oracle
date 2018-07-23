@@ -34,6 +34,11 @@ Permite actualizar la condicion de restringido de un fármaco.
 yarn Install
 ```
 
+## Environment
+```
+export SEED="<seed words>"
+```
+
 ## Start Server (port 4000)
 ```
 yarn start
