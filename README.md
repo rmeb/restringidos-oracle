@@ -29,6 +29,35 @@ Permite actualizar la condicion de restringido de un fármaco.
 | 500    | Internal Error | Internal error                |
 
 
+### Consultar la condicion de un farmaco
+
+`POST /consultar`
+
+Permite consultar la condicion de restringido de un farmaco
+
+#### Body
+```
+{
+  codigo: <codigo de farmaco>
+}
+```
+
+#### Response
+
+| Status |     Message    |                               |
+|:------:|----------------|-------------------------------|
+| 200    | Ok.            | Keystore recuperado           |
+| 400    | Bad Request    | Parameter missing or invalid  |
+| 500    | Internal Error | Internal error                |
+
+#### Response data
+```
+{
+  restringido: [true|false]
+}
+```
+
+
 ## Install
 ```
 yarn Install
